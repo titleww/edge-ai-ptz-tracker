@@ -1,0 +1,23 @@
+camera:
+  width: 1280
+  height: 720
+  fps: 30
+  format: RGB888
+
+rtsp:
+  port: 8554
+  mount: /stream
+  bitrate: 2000       # kbps
+
+websocket:
+  host: 0.0.0.0
+  port: 8765
+
+network:
+  eth0_ip: 192.168.1.100
+  wlan0_ip: 192.168.1.101
+
+tracking:
+  pan_direction: 1    # 1 if pan direction is inverted physically, -1 for default
+  tilt_direction: -1  # 1 if tilt direction is inverted physically, -1 for default
+  class_names: ["general_drone_small", "general_drone_medium", "general_drone_large", "uav", "real_world_drone", "birds_and_others"]

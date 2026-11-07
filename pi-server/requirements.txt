@@ -1,0 +1,29 @@
+# =========================================================================
+# Edge Server Requirements (Raspberry Pi 5 Verified Environment)
+# =========================================================================
+
+# --- Core Computer Vision & Image Processing ---
+opencv-python-headless==4.13.0.92
+numpy==2.2.4
+
+# --- Hardware & Serial Interfaces ---
+pyserial==3.5
+gpiozero==2.0.1
+lgpio==0.2.2.0
+picamera2==0.3.36
+
+# --- Object Tracking ---
+filterpy==1.4.5
+
+
+# --- Network & WebSocket Server ---
+fastapi==0.136.1
+uvicorn==0.46.0
+websockets==16.0
+
+# --- Utilities ---
+PyYAML==6.0.2
+
+# หมายเหตุ (Developer Notes):
+# 1. HailoRT API (hailo_platform==4.23.0) ได้รับการติดตั้งล่วงหน้าผ่านไฟล์ .whl ของ Hailo
+# 2. RTSP Server (mediamtx) รันเป็น Linux Service แยกต่างหาก ไม่ใช่ Python package

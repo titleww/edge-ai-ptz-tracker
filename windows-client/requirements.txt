@@ -1,0 +1,15 @@
+# =========================================================================
+# Windows Client Requirements (Verified Environment)
+# =========================================================================
+
+# --- GUI Framework ---
+PySide6==6.5.2
+
+# --- Video Stream Display & Processing ---
+opencv-python==4.8.0.76
+
+# --- Network & Communication (WebSocket Client) ---
+websockets==11.0.3
+
+# --- Build Tools (Production / Compiling to EXE) ---
+pyinstaller==6.0.0
